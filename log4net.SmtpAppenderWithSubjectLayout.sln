@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "log4net.SmtpAppenderWithSubjectLayout", "log4net.SmtpAppenderWithSubjectLayout\log4net.SmtpAppenderWithSubjectLayout.csproj", "{30AC49C1-A1DA-4B52-86EC-66164265BA0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csproj", "{C0C42681-ACE4-48B9-9D37-19C7A079E077}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{AD81DE56-55FD-4A20-8BDB-3EE06335A7B0}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30AC49C1-A1DA-4B52-86EC-66164265BA0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30AC49C1-A1DA-4B52-86EC-66164265BA0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30AC49C1-A1DA-4B52-86EC-66164265BA0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30AC49C1-A1DA-4B52-86EC-66164265BA0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0C42681-ACE4-48B9-9D37-19C7A079E077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0C42681-ACE4-48B9-9D37-19C7A079E077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0C42681-ACE4-48B9-9D37-19C7A079E077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0C42681-ACE4-48B9-9D37-19C7A079E077}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
